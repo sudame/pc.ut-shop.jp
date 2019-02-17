@@ -1,0 +1,93 @@
+html, body, p {
+  margin: 0;
+  padding: 0; }
+
+* {
+  box-sizing: border-box; }
+
+#caution {
+  background-color: #E62D27;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0; }
+
+#caution > div:first-child {
+  padding-right: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem; }
+
+#caution > div:first-child p:first-of-type {
+  font-size: 4rem; }
+
+#caution p {
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+#caution__text p:first-of-type {
+  font-size: 1.3rem; }
+
+#caution__text p:last-of-type {
+  font-size: 3rem;
+  font-weight: bold; }
+
+#hero {
+  background-color: grey;
+  padding-bottom: 2rem; }
+  #hero p.title {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0.5rem 0; }
+  #hero div.image {
+    width: 80vw;
+    margin: auto;
+    padding: 1rem 0; }
+    #hero div.image img {
+      width: 100%; }
+  #hero div.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    #hero div.buttons p {
+      background-color: #E62D27;
+      color: white;
+      border-radius: 5px;
+      width: 17rem;
+      height: 5rem;
+      text-align: center;
+      line-height: 5rem; }
+      #hero div.buttons p:first-child {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-right: 3rem; }
+      #hero div.buttons p:last-of-type {
+        font-size: 2rem; }
+        #hero div.buttons p:last-of-type span:last-child {
+          font-weight: bold;
+          margin-left: 1rem; }
+
+#campaign {
+  border: 3px solid #E62D27;
+  background-color: #F6D6E6;
+  padding: 1rem; }
+  #campaign .omedeto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    #campaign .omedeto img {
+      height: 10rem;
+      margin-right: 3rem; }
+    #campaign .omedeto .text {
+      color: #D14159;
+      font-weight: bolder;
+      font-size: 2rem; }
+
+/*# sourceMappingURL=main.css.map */
